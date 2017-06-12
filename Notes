@@ -1,3 +1,10 @@
 A library is simply a collection of resources and pre-written codes that we can use when we write our programs.
+
 Variables are names given to data that we need to store and manipulate in our programs.
+
 Variable names are case sensitive.
+
+Basic operators in Python include +, -, *, /, //, % and ** which represent addition, subtraction, multiplication, division, floor division, modulus, and exponent respectively.
+
+Besides the = operator, there are a few more assignment operators in Python. These include operators like +=, -= and *=.
+
