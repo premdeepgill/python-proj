@@ -20,4 +20,11 @@ Type Casting is conversion of one data type to another, such as from an integer 
 
 List refers to a collection of data which are normally related. Instead of storing these data as separate varirables, we can store them as a list. eg userAge [21, 22, 23, 24, 25] - Individual values are accessible by their indexes, and indexes always start from zero. When using Slice Notation [2:4], the item at the start index is always Included, but the item at the end is always Excluded.
 
+To add items, use the append() function.
+
+To remove items, use del listName[index].
+
+Tuples are just like lists, but you cannot modify their values. The initial values are the values that will stay for the rest of the program. Use parentheses () to declare, multiple values are separated by a comma.
+
+Dictionary is a collection of related data pairs (key-value). dictName = {dictionary key : data}. We can also declare a dictionary using the dict() method.
 
