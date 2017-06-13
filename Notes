@@ -62,3 +62,12 @@ To create a custom module for reuse, simply save the file with a .py extension a
 
 sys.path refers to Python's system path. This is the list of directories that Python goes through to search for modules and files.
 
+Every time the readline() function is called, it reads a new line from the file. The FOR loop is a more elegant and efficient way to read text files. We can also use read() function which allows us to specify the buffer size.
+
+Simply stated, object-oriented programming is an approach to programming that breaks a programming problem into objects that interact with each other. Objects are created from templates known as classes. A class consists of variables and functions. If a function exists within a class, it is more commonly referred to as a method.
+
+__init__ is a special method known as the initializer of the class. It is always named init with two underscores in front and at the back. An initializer is called whenever an object of the class is created.
+
+Instance variables are prefixed with a "self" keyword. Writing an initializer is optional if you do not wish to initialize the instance variables when you create the object. It can be initialized later.
+
+In order to use the class, we have to create an object from it. This is known as instantiating an object. An object is also known as an instance.
