@@ -28,3 +28,25 @@ Tuples are just like lists, but you cannot modify their values. The initial valu
 
 Dictionary is a collection of related data pairs (key-value). dictName = {dictionary key : data}. We can also declare a dictionary using the dict() method.
 
+There are 3 logical operators - AND, OR, NOT. The AND operator returns True if all conditions are met. The OR operator returns True if at least one condition is met. The NOT operator returns True if the condition after the NOT keyword is false.
+
+The FOR loop executes a block of code repeatedly until the condition in the statement is no longer valid.
+
+To loop through a sequence of numbers, the built-in range() function is handy - range(start, end, step). If start is not given, the numbers generated will start from zero. The end value MUST be provided, however, the given end value is never part of the generated list.
+
+A WHILE loop repeatedly executes instructions inside the loop while a certain condition remains valid. Often, we need to first declare a variable to function as a loop counter.
+
+When working with loops, sometimes you may want to exit the loop when a certain condition is met. This is achieved with the BREAK keyword.
+
+When we use CONTINUE, the rest of the loop after the keyword is skipped for that iteration.
+
+The TRY/EXCEPT statement controls how the program proceeds when an error occurs.
+
+ValueError and ZeroDivisionError are two of the many pre-defined error types in Python. ValueError is raised when a build-in operation or function receives an argument that has the right type but an inappropriate value. ZeroDivisionError is raised when the program tries to divide by zero. Other common errors in Python:
+    * IOError: Raised when an I/O operation fails for an I/O-related reason, e.g., "file not found"
+    * ImportError: Raised when an import statement fails to find the module definition
+    * IndexError: Raised when a sequence (e.g. string, list, tuple) index is out of range
+    * KeyError: Raised when a dictionary key is not found
+    * NameError: Raised when a local or global name is not found
+    * TypeError: Raised when an operation or function is applied to an object of inappropriate type
+
