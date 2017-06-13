@@ -50,3 +50,15 @@ ValueError and ZeroDivisionError are two of the many pre-defined error types in 
     * NameError: Raised when a local or global name is not found
     * TypeError: Raised when an operation or function is applied to an object of inappropriate type
 
+Functions are simply pre-written codes that perform a certain task. Depending on how the function is written, whether it is part of a class and how you import it, we can call a function simply by typing the name or by using the dot notation. Some functions require arguments and we pass them to the function by enclosing their values in parentheses() separated by commas.
+
+There are two keywords to define a function: DEF and RETURN. def tells the program that the indented code from the next line onwards is part of the function. return is the keyword used to return an answer from the function. There can be more than one return statements, however, once the function executes a return statement, the function will exist.
+
+Any variable declared inside a function is only accessible within the function. These are known as Local Variables. Any variable declared outside a function is known as a Global Variable and is accessible anywhere in the program. If a local variable shares the same name as a global variable, any code inside the function is accessing the local variable while outside code is accessing global variable. All parameters with default values MUST be placed at the end of the parameter list.
+
+Python comes with a large number of built-in functions that are saved in files known as modules. To use the built-in codes in Python modules, we first have to import them into our programs using IMPORT keyword.
+
+To create a custom module for reuse, simply save the file with a .py extension and put it in the same folder as the Python file that you are going to import it from.
+
+sys.path refers to Python's system path. This is the list of directories that Python goes through to search for modules and files.
+
